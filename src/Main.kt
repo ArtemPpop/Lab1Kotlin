@@ -3,7 +3,7 @@
 //    val assessments = Array(20) { IntArray(10) }
 //    for (i in 0 until 20) {
 //        for (j in 0 until 10) {
-//            assessments[i][j] = (2..5).random() // случайная оценка от 1 до 10
+//            assessments[i][j] = (2..5).random()
 //        }
 //    }
 //    var Sum = 0
@@ -15,7 +15,7 @@
 //        println()
 //    }
 //    val average  = Sum.toDouble() / (20 * 10)
-//    println("Средняя оценка класса: $average ")
+//    println("cредняя оценка класса: $average ")
 //}
 
 //одномерный массив
