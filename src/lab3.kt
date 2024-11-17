@@ -43,10 +43,10 @@ class Descendant(
 ) : Time() {
 
     fun isDiscountTime(): Boolean {
-        return currentTime.hours in 0..7  // Проверяем, находится ли часы в диапазоне от 0 до 7
+        return currentTime.hours in 0..7  
     }
 
-    // Метод для отображения информации об абоненте
+
     fun displayDescendantInfo(): String {
         return "Абонент: $lastName, Оператор: $operator, Текущее время: ${currentTime.displayTime()}"
     }
@@ -54,8 +54,8 @@ class Descendant(
 
 fun main() {
 
-    val timeInstance = Time(7, 30, 0) // Создаем объект времени
-    val descendant = Descendant("Иванов", "МТС", timeInstance) // Создаем объект абонента
+    val timeInstance = Time(7, 30, 0) 
+    val descendant = Descendant("Иванов", "МТС", timeInstance) 
 
     println(descendant.displayDescendantInfo())
 
