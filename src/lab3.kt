@@ -23,13 +23,13 @@ open class Time(var hours: Int = 0, var minutes: Int = 0, var seconds: Int = 0) 
 }
 //fun main() {
 //
-//    val timeInstance = Time(1, 30, 45) // 1 час, 30 минут, 45 секунд
+//    val timeInstance = Time(1, 30, 45)
 //    println("Исходное время: ${timeInstance.displayTime()}")
 //
 //    val fullMinutes = timeInstance.totalMinutes()
 //    println("Количество полных минут: $fullMinutes")
 //
-//    timeInstance.reduceTime(10) // Уменьшаем время на 10 минут
+//    timeInstance.reduceTime(10) 
 //    println("Время после уменьшения на 10 минут: ${timeInstance.displayTime()}")
 //}
 
