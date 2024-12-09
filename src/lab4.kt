@@ -5,13 +5,13 @@
 //
 //    
 //    val count = numbers.indices.count { index ->
-//        index in 1 until numbers.size - 1 && // Исключаем крайние элементы
-//                numbers[index] > numbers[index - 1] && // Проверяем, что больше левого соседа
-//                numbers[index] > numbers[index + 1]    // Проверяем, что больше правого соседа
+//        index in 1 until numbers.size - 1 && 
+//                numbers[index] > numbers[index - 1] && 
+//                numbers[index] > numbers[index + 1]    
 //    }
 //
 //    
-//    println("Количество элементов, которые больше двух соседних: $count")
+//    println("Количество элементов которые больше двух соседних: $count")
 //}
 
 //задание ерез set
