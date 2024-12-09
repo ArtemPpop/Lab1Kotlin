@@ -13,7 +13,7 @@ open class Time(var hours: Int = 0, var minutes: Int = 0, var seconds: Int = 0) 
 
         hours = totalMinutes / 60
         minutes = totalMinutes % 60
-        seconds = 0 // Сбрасываем секунды на 0
+        seconds = 0 
     }
 
 
