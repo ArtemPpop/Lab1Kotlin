@@ -37,34 +37,7 @@ fun main() {
 //задание через map
 fun main() {
 
-    val N = readLine()!!.toInt()
 
- 
-    val filePermissions = mutableMapOf<String, MutableSet<String>>()
-
-
-    repeat(N) {
-        val input = readLine()!!.split(' ')
-        val fileName = input[0]
-        val operations = input.drop(1).toSet() 
-        filePermissions[fileName] = operations.toMutableSet()
-    }
-
-
-    val M = readLine()!!.toInt()
-
-
-    repeat(M) {
-        val request = readLine()!!.split(' ')
-        val operation = request[0]
-        val fileName = request[1]
-
-        if (filePermissions.containsKey(fileName) && filePermissions[fileName]?.contains(operation) == true) {
-            println("OK")
-        } else {
-            println("Access denied")
-        }
-    }
 }
 
 
